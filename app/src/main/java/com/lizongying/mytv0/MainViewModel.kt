@@ -118,7 +118,7 @@ class MainViewModel : ViewModel() {
 
     if (cacheChannels.isEmpty()) {
     Log.i(TAG, "cacheChannels isEmpty, loading custom URL")
-    SP.configUrl = "https://raw.githubusercontent.com/CUSCO888/spider/refs/heads/master/output/hayate.m3u"
+    SP.configUrl = "https://raw.githubusercontent.com/CUSCO888/spider/refs/heads/master/output/momo.m3u"
     SP.configAutoLoad = true
     SP.epg = "https://raw.githubusercontent.com/CUSCO888/epg/master/guide.xml"
     
